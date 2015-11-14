@@ -6,6 +6,6 @@ import javax.annotation.Generated;
 public class Specific {
 
     abstract static class SpecificInternal extends General {
-        public static final General INSTANCE = new SpecificInternal(){};
+        public static final SpecificInternal INSTANCE = new SpecificInternal(){};
     }
 }
